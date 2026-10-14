@@ -332,7 +332,7 @@ The **master output ADSR**, **lowpass/highpass filters**, **echo**, and
 count, gain and detune also apply; FM operator controls only shape the FM
 source. Files added through the panel play once, so ADSR cannot extend a
 recording beyond its end. Maps can define loops for sustained sounds; see
-[libcsynth's sample documentation](libcsynth/README.md).
+[libcsynth's sample documentation](libcsynth/docs/guide.md#make-an-instrument-from-recordings).
 Saved `.synth` settings store the processing configuration; keep the sample
 map and recordings separately.
 
@@ -391,5 +391,5 @@ and offers **Switch to FM**. Master ADSR, filters and effects remain shared.
 
 The eight Graph presets are included among the 72 factory sounds. The FM
 equation view displays their connections and delayed feedback. See
-[libcsynth's routing documentation](libcsynth/README.md#fm-routing-and-feedback)
+[libcsynth's routing documentation](libcsynth/docs/guide.md#fm-routing-and-feedback)
 for the equations, normalization, and API.
